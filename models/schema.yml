@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+    - name: raw
+      schema: nice-carving-424409-j3.gz_raw_data
+      tables:
+      - name: product
+        identifier: nice-carving-424409-j3.gz_raw_data.raw_product
+      - name: sales
+        identifier: nice-carving-424409-j3.gz_raw_data.raw_sales
+      - name: ship
+        identifier: nice-carving-424409-j3.gz_raw_data.raw_ship
